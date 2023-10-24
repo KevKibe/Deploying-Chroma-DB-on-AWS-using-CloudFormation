@@ -1,0 +1,4 @@
+chromadb-client
+chromadb
+python-dotenv
+openai

@@ -1,0 +1,42 @@
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:eu-north-1:787008362900:stack/chroma-stack/4b4a6ef0-7230-11ee-a2de-06440f541ea2",
+            "StackName": "chroma-stack",
+            "Description": "Create a stack that runs Chroma hosted on a single instance",
+            "Parameters": [
+                {
+                    "ParameterKey": "KeyName",
+                    "ParameterValue": ""
+                },
+                {
+                    "ParameterKey": "ChromaVersion",
+                    "ParameterValue": "0.4.14"
+                },
+                {
+                    "ParameterKey": "InstanceType",
+                    "ParameterValue": "t3.small"
+                }
+            ],
+            "CreationTime": "2023-10-24T05:43:45.284000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "OutputKey": "ServerIp",
+                    "OutputValue": "51.20.63.152",
+                    "Description": "IP address of the Chroma server"
+                }
+            ],
+            "Tags": [],
+            "EnableTerminationProtection": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
