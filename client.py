@@ -4,6 +4,7 @@ from chromadb.config import Settings
 from chromadb.utils import embedding_functions 
 from dotenv import load_dotenv
 load_dotenv()
+#create an .env file to store your api key or just assign the variable openai_api_key to your key
 openai_api_key = os.getenv('OPENAI_API_KEY')
 print("Imported necessary modules.")
 
