@@ -1,5 +1,4 @@
 # Deploying-Chroma-DB-on-AWS-using-CloudFormation
-
 - This project provides steps on how to deploy ChromaDB on AWS CloudFormation using a template.
 - The template creates a stack that runs Chroma on a single EC2 instance. 
 - ChromaDB is a distributed document database that is optimized for search and analytics. It is a good choice for storing and querying large volumes of text data and embeddings for access to LLMs.
