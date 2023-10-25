@@ -24,3 +24,6 @@ aws cloudformation create-stack --stack-name my-chroma-stack --template-url http
 aws cloudformation describe-stacks --stack-name my-chroma-stack --query 'Stacks[0].Outputs'
 ```
 - Your stack is running on that IP address on port 8000 and you can add collections using this [example](https://github.com/KevKibe/Deploying-Chroma-DB-on-AWS-using-CloudFormation/blob/main/client.py) and query using this [example](https://github.com/KevKibe/Deploying-Chroma-DB-on-AWS-using-CloudFormation/blob/main/query.py).
+
+## Additional Information
+-This [notebook](https://github.com/KevKibe/Deploying-Chroma-DB-on-AWS-using-CloudFormation/blob/main/Semantic_Search_with_Chroma_DB.ipynb) is a quick tutorial to ChromaDB, specifically adding and querying collections on it.
